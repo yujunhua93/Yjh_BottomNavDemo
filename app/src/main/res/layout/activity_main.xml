@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yjh.yjh_bottomnavdemo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="tablayout+fragment"
+        android:onClick="page_first"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="fragmentTabHost+fragment"
+        android:onClick="page_second"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="radioGroup+fragment"
+        android:onClick="page_third"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="bottomNavigation+fragment"
+        android:onClick="page_forth"/>
+
+</LinearLayout>
